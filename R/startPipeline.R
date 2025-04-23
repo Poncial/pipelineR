@@ -5,4 +5,5 @@ startPipeline <- function(){
   symbolsDb <- fetchSymbols()
   splitList <- splitBatch(symbolsDb)
   yahooDt <- yahooQueryData()
+  formatedDt <- formatData()
 }

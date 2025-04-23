@@ -18,7 +18,8 @@
 #'
 #' # Apply a function to each chunk with purrr
 #' # purrr::map(chunks, some_function)
-#'
+#' @import data.table
+#' @importFrom data.table :=
 #' @export
 splitBatch <- function(dt) {
   dt[, groupId := cut(.I, breaks = 31, labels = FALSE)]

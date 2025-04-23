@@ -2,5 +2,10 @@
 
 export(connectDb)
 export(fetchSymbols)
+export(formatData)
 export(splitBatch)
 export(yahooQueryData)
+import(data.table)
+importFrom(data.table,":=")
+importFrom(purrr,map)
+importFrom(tidyr,pivot_longer)

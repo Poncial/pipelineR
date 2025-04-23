@@ -28,5 +28,4 @@ chunks <- split_dt(dt, 5)
 
 # Apply a function to each chunk with purrr
 # purrr::map(chunks, some_function)
-
 }
