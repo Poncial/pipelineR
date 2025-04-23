@@ -3,3 +3,4 @@
 export(connectDb)
 export(fetchSymbols)
 export(splitBatch)
+export(yahooQueryData)
