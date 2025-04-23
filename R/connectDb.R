@@ -15,7 +15,7 @@
 #'
 #' @examples
 #' \dontrun{
-#' con <- connect_db()
+#' con <- connectDb()
 #' DBI::dbListTables(con)
 #' DBI::dbDisconnect(con)
 #' }
